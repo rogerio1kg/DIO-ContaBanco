@@ -33,5 +33,8 @@ public class ContaTerminal {
         System.out.println("********************************************");
 
 
+
+        DADOS_BANCARIOS.close();
+        DADOS_BANCARIOS_NOME.close();
     }
 }
